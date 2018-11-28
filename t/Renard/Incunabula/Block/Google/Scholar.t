@@ -62,6 +62,8 @@ subtest "Retrieve results for search query" => sub {
 	my $results = $search_scraper->scrape($search_response);
 
 	use DDP; p $results;
+
+	pass;
 };
 
 done_testing;
